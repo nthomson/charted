@@ -1,0 +1,24 @@
+{
+  "name": "chartedjs",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/charted.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nthomson/chartedjs.git"
+  },
+  "author": "nthomsondev@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nthomson/chartedjs/issues"
+  },
+  "homepage": "https://github.com/nthomson/chartedjs#readme",
+  "dependencies": {
+    "d3": "^5.4.0",
+    "moment": "^2.22.1"
+  },
+  "devDependencies": {
+    "webpack": "^4.8.3",
+    "webpack-cli": "^2.1.3"
+  }
+}
