@@ -18,16 +18,14 @@ var area = new AreaChart(areaEle, areaConfig, areaData);
 var bubbleEle = document.querySelector('#bubble-chart-test');
 let bubbleConfig = {width: 1200, height: 500};
 let bubbleData = [
-  { label: 'Brittany the Wondrous', value: 19456 },
-  { label: 'Inana', value: 12046 },
-  { label: 'Joel', value: 8145 },
-  { label: 'Sara', value: 11983 },
-  { label: 'Justin', value: 12923 },
-  { label: 'Ian', value: 10456 },
-  { label: 'Bradley', value: 8812 },
-  { label: 'Justin', value: 12923 },
-  { label: 'Ian', value: 4123 },
-  { label: 'Bradley', value: 5313 },
+  { label: 'Tony', value: 19456 },
+  { label: 'Peter', value: 12046 },
+  { label: 'Stephen', value: 8145 },
+  { label: 'Natasha', value: 11983 },
+  { label: 'Clint', value: 12923 },
+  { label: 'Bruce', value: 10456 },
+  { label: 'Wanda', value: 8812 },
+  { label: 'Pietro', value: 12923 }
 ];
 
 var bubble = new BubbleChart(bubbleEle, bubbleConfig, bubbleData);
